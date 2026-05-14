@@ -1,0 +1,185 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Window / General -->
+    <sys:String x:Key="MainWindow_Title">Bedrock Launcher</sys:String>
+    <sys:String x:Key="MainWindow_Disclaimer">This is an unofficial launcher. Not affiliated with Mojang or Microsoft.</sys:String>
+
+    <!-- Toolbar -->
+    <sys:String x:Key="ToolbarButtons_Minecraft_Text">Minecraft</sys:String>
+    <sys:String x:Key="ToolbarButtons_MinecraftEdition_Text">Minecraft: Bedrock Edition</sys:String>
+    <sys:String x:Key="ToolbarButtons_NewsButton_Text">News</sys:String>
+    <sys:String x:Key="ToolbarButtons_CommunityButton_Text">Community</sys:String>
+    <sys:String x:Key="ToolbarButtons_SettingsButton_Text">Settings</sys:String>
+    <sys:String x:Key="ToolbarButtons_ProfileButton_ProfileType_Text">Profile</sys:String>
+
+    <!-- Game Tab -->
+    <sys:String x:Key="GameTab_Title">Play</sys:String>
+    <sys:String x:Key="GameTab_PlayButton_Text">Play</sys:String>
+    <sys:String x:Key="GameTab_InstallationsButton_Text">Installations</sys:String>
+    <sys:String x:Key="GameTab_PatchNotesButton_Text">Patch Notes</sys:String>
+    <sys:String x:Key="GameTab_CreatorToolsButton_Text">Creator Tools</sys:String>
+
+    <!-- Play button labels -->
+    <sys:String x:Key="BigGreenButton_Text">PLAY</sys:String>
+    <sys:String x:Key="BigGreenButtonEditor_Text">LAUNCH EDITOR</sys:String>
+
+    <!-- Creator Tools -->
+    <sys:String x:Key="CreatorToolsPage_Editor">Editor</sys:String>
+    <sys:String x:Key="CreatorToolsPage_Slogan">Build, test, and publish your creations.</sys:String>
+
+    <!-- Profile buttons -->
+    <sys:String x:Key="ProfileButton_ChooseAccount_Text">Choose Account</sys:String>
+    <sys:String x:Key="ProfileButton_ManageProfiles_Text">Manage Profiles</sys:String>
+    <sys:String x:Key="ProfileButton_AddProfile_Text">Add Profile</sys:String>
+    <sys:String x:Key="ProfileButton_RemoveProfile_Text">Remove Profile</sys:String>
+    <sys:String x:Key="ProfileButton_ProfileSettings_Text">Profile Settings</sys:String>
+
+    <!-- New Profile -->
+    <sys:String x:Key="NewProfile_ProfileNameHeader">Profile Name</sys:String>
+    <sys:String x:Key="NewProfile_CreateProfileSubTitle">Enter a name for your new profile.</sys:String>
+    <sys:String x:Key="NewProfile_CreateProfileButton">Create Profile</sys:String>
+    <sys:String x:Key="NewProfile_GoBackButton">Go Back</sys:String>
+
+    <!-- Installations page -->
+    <sys:String x:Key="InstallationsPage_PlayButton">Play</sys:String>
+    <sys:String x:Key="InstallationsPage_AddButton">Add</sys:String>
+    <sys:String x:Key="InstallationsPage_SearchBar_Content">Search installations...</sys:String>
+    <sys:String x:Key="InstallationsPage_SortBy_None">None</sys:String>
+    <sys:String x:Key="InstallationsPage_SortBy_Name">Name</sys:String>
+    <sys:String x:Key="InstallationsPage_SortBy_LatestPlayed">Latest Played</sys:String>
+
+    <!-- Version select -->
+    <sys:String x:Key="InstallationVersionSelect_SearchBar_Content">Search versions...</sys:String>
+
+    <!-- Version entries -->
+    <sys:String x:Key="VersionEntries_LatestRelease">Latest Release</sys:String>
+    <sys:String x:Key="VersionEntries_LatestPreview">Latest Preview</sys:String>
+    <sys:String x:Key="VersionEntries_LatestBeta">Latest Beta</sys:String>
+    <sys:String x:Key="VersionEntries_UnnamedInstallation">Unnamed Installation</sys:String>
+
+    <!-- Versions page -->
+    <sys:String x:Key="VersionsPage_InstallVersion">Install Version</sys:String>
+
+    <!-- Edit Installation -->
+    <sys:String x:Key="EditInstallationScreen_Title">Edit Installation</sys:String>
+    <sys:String x:Key="EditInstallationScreen_NameSubtitle">Name</sys:String>
+    <sys:String x:Key="EditInstallationScreen_NameHintText">Enter installation name...</sys:String>
+    <sys:String x:Key="EditInstallationScreen_VersionSubtitle">Version</sys:String>
+    <sys:String x:Key="EditInstallationScreen_CreateButton">Save</sys:String>
+
+    <!-- Dialogs -->
+    <sys:String x:Key="Dialog_CloseGame_Title">Close Game?</sys:String>
+    <sys:String x:Key="Dialog_CloseGame_Text">The game is currently running. Do you want to close it?</sys:String>
+    <sys:String x:Key="Dialog_KillGame_Title">Force Close Game?</sys:String>
+    <sys:String x:Key="Dialog_KillGame_Text">Are you sure you want to force-close Minecraft?</sys:String>
+    <sys:String x:Key="Dialog_ResultPanel_Loading_Title">Loading...</sys:String>
+
+    <!-- Error screen -->
+    <sys:String x:Key="ErrorScreen_Title">Something went wrong</sys:String>
+    <sys:String x:Key="ErrorScreen_SubTitle">An unexpected error occurred.</sys:String>
+    <sys:String x:Key="ErrorScreen_CloseButton">Close</sys:String>
+    <sys:String x:Key="ErrorScreen_ViewCrash">View Details</sys:String>
+
+    <!-- Update button -->
+    <sys:String x:Key="UpdateButton_NewUpdate_Text">New Update Available!</sys:String>
+    <sys:String x:Key="UpdateButton_Download_Text">Download</sys:String>
+
+    <!-- News screen -->
+    <sys:String x:Key="NewsScreen_OfficialTabTitle">Official</sys:String>
+    <sys:String x:Key="NewsScreen_MinecraftForumsTitle">Forums</sys:String>
+    <sys:String x:Key="NewsScreen_LauncherTabTitle">Launcher</sys:String>
+    <sys:String x:Key="NewsScreen_SearchBar_Content">Search news...</sys:String>
+    <sys:String x:Key="NewsScreen_JavaNDungeons_JavaCheckbox">Java Edition</sys:String>
+    <sys:String x:Key="NewsScreen_JavaNDungeons_DungeonsCheckbox">Dungeons</sys:String>
+    <sys:String x:Key="NewsScreen_JavaNDungeons_BedrockCheckbox">Bedrock Edition</sys:String>
+
+    <!-- Launcher news page -->
+    <sys:String x:Key="LauncherNewsPage_Title_Text">Launcher News</sys:String>
+    <sys:String x:Key="LauncherNewsPage_CurrentBuild_Text">Current Build</sys:String>
+    <sys:String x:Key="LauncherNewsPage_CheckForUpdates">Check for Updates</sys:String>
+    <sys:String x:Key="LauncherNewsPage_GetUpdates">Get Updates</sys:String>
+
+    <!-- Patch notes -->
+    <sys:String x:Key="PatchNotesPage_MorePatchNotes">More Patch Notes</sys:String>
+    <sys:String x:Key="PatchNotesPage_MorePatchNotesBeta">More Beta Patch Notes</sys:String>
+
+    <!-- Settings tabs -->
+    <sys:String x:Key="SettingsTab_Title">Settings</sys:String>
+    <sys:String x:Key="SettingsTab_GeneralButton">General</sys:String>
+    <sys:String x:Key="SettingsTab_VersionsButton">Versions</sys:String>
+    <sys:String x:Key="SettingsTab_AboutButton">About</sys:String>
+
+    <!-- General settings -->
+    <sys:String x:Key="GeneralSettingsScreen_LauncherSettingsSubtitle">Launcher Settings</sys:String>
+    <sys:String x:Key="GeneralSettingsScreen_KeepLauncherOpen">Keep launcher open after launching game</sys:String>
+    <sys:String x:Key="GeneralSettingsScreen_AnimateTransitions">Animate page transitions</sys:String>
+    <sys:String x:Key="GeneralSettingsScreen_KeepAppx">Keep downloaded version packages (.appx)</sys:String>
+    <sys:String x:Key="GeneralSettingsScreen_FetchVersionsFromMicrosoftStore">Fetch version list from Microsoft Store</sys:String>
+    <sys:String x:Key="GeneralSettingsScreen_UpdatesSubtitle">Updates</sys:String>
+    <sys:String x:Key="GeneralSettingsScreen_LanguageSubtitle">Language</sys:String>
+    <sys:String x:Key="GeneralSettingsScreen_ThemeSubtitle">Theme</sys:String>
+    <sys:String x:Key="GeneralSettingsScreen_BackupsSubtitle">Backups</sys:String>
+    <sys:String x:Key="GeneralSettingsScreen_BackupButton">Create Backup</sys:String>
+    <sys:String x:Key="GeneralSettingsScreen_BackupPreviewButton">Preview Backups</sys:String>
+    <sys:String x:Key="GeneralSettingsScreen_PathOptions_PathSubtitle_Text">Data Location</sys:String>
+    <sys:String x:Key="GeneralSettingsScreen_PathOptions_LauncherOptions_Text">Launcher Options</sys:String>
+    <sys:String x:Key="GeneralSettingsScreen_PathOptions_PortableMode_Text">Portable Mode</sys:String>
+    <sys:String x:Key="GeneralSettingsScreen_PathOptions_Notice_Text">Changing the data location requires a restart.</sys:String>
+    <sys:String x:Key="GeneralSettingsScreen_PathOptions_RestartButton_Text">Restart Now</sys:String>
+
+    <!-- About page -->
+    <sys:String x:Key="AboutPage_Title">About</sys:String>
+    <sys:String x:Key="AboutPage_CurrentBuild">Current Build</sys:String>
+    <sys:String x:Key="AboutPage_DevelopedBy_Text">Developed by</sys:String>
+    <sys:String x:Key="AboutPage_OriginallyDevelopedBy_Text">Originally developed by</sys:String>
+    <sys:String x:Key="AboutPage_McMrArm_Text">McMrARM</sys:String>
+    <sys:String x:Key="AboutPage_Mojang_Text">Mojang Studios</sys:String>
+    <sys:String x:Key="AboutPage_SpecialThanks_Text">Special Thanks</sys:String>
+
+    <!-- First launch wizard -->
+    <sys:String x:Key="FirstLaunch_WelcomeTitle">Welcome to Bedrock Launcher</sys:String>
+    <sys:String x:Key="FirstLaunch_WelcomeSubTitle">The unofficial launcher for Minecraft: Bedrock Edition.</sys:String>
+    <sys:String x:Key="FirstLaunch_BeforeStartingToUse">Before you begin, please read the following:</sys:String>
+    <sys:String x:Key="FirstLaunch_OneThingTitle">One Thing First</sys:String>
+    <sys:String x:Key="FirstLaunch_OneThingSubtitle">Choose how you want to store your data.</sys:String>
+    <sys:String x:Key="FirstLaunch_InstallType_Header">Installation Type</sys:String>
+    <sys:String x:Key="FirstLaunch_PortableInstall_Checkbox">Portable (store data next to the launcher)</sys:String>
+    <sys:String x:Key="FirstLaunch_FixedInstall_Checkbox">Fixed (store data in AppData)</sys:String>
+    <sys:String x:Key="FirstLaunch_BackupCheckBox_Text">Back up existing Minecraft data</sys:String>
+    <sys:String x:Key="FirstLaunch_BackupCheckBox_Subtext">Recommended if you have existing saves.</sys:String>
+    <sys:String x:Key="FirstLaunch_AlmostThereTitle">Almost There!</sys:String>
+    <sys:String x:Key="FirstLaunch_NextButton">Next</sys:String>
+    <sys:String x:Key="FirstLaunch_BackButton">Back</sys:String>
+    <sys:String x:Key="FirstLaunch_FinishButton">Finish</sys:String>
+    <sys:String x:Key="FirstLaunch_CloseButton">Close</sys:String>
+
+    <!-- General subtitles -->
+    <sys:String x:Key="GeneralSubtitles_Search">Search</sys:String>
+    <sys:String x:Key="GeneralSubtitles_SortBy">Sort By</sys:String>
+    <sys:String x:Key="GeneralSubtitles_Versions">Versions</sys:String>
+    <sys:String x:Key="GeneralSubtitles_Architectures">Architectures</sys:String>
+    <sys:String x:Key="GeneralSubtitles_Categories">Categories</sys:String>
+
+    <!-- General action text -->
+    <sys:String x:Key="GeneralText_Yes">Yes</sys:String>
+    <sys:String x:Key="GeneralText_No">No</sys:String>
+    <sys:String x:Key="GeneralText_Cancel">Cancel</sys:String>
+    <sys:String x:Key="GeneralText_Select">Select</sys:String>
+    <sys:String x:Key="GeneralText_Edit">Edit</sys:String>
+    <sys:String x:Key="GeneralText_Delete">Delete</sys:String>
+    <sys:String x:Key="GeneralText_Remove">Remove</sys:String>
+    <sys:String x:Key="GeneralText_Repair">Repair</sys:String>
+    <sys:String x:Key="GeneralText_Duplicate">Duplicate</sys:String>
+    <sys:String x:Key="GeneralText_Install">Install</sys:String>
+    <sys:String x:Key="GeneralText_Imported">Imported</sys:String>
+    <sys:String x:Key="GeneralText_Refresh">Refresh</sys:String>
+    <sys:String x:Key="GeneralText_Releases">Releases</sys:String>
+    <sys:String x:Key="GeneralText_Previews">Previews</sys:String>
+    <sys:String x:Key="GeneralText_Betas">Betas</sys:String>
+    <sys:String x:Key="GeneralText_Website">Website</sys:String>
+    <sys:String x:Key="GeneralText_GitHub">GitHub</sys:String>
+    <sys:String x:Key="GeneralText_Twitter">Twitter</sys:String>
+
+</ResourceDictionary>
